@@ -1,0 +1,60 @@
+
+
+.maincontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    background: #1c1c1c;
+    padding-bottom: 10px;
+    color: #ccc;
+    h1 {
+        font-size: 50px;
+    }
+}
+.content-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.social-logo  {
+    position: relative;
+    top: 50px;
+    font-size: 200px;
+    background-color: #1c1c1c;
+    border: 3px solid black;
+    padding: 15px 30px;
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: #ccc;
+    }
+    i {
+        transition: color 0.3s ease;
+    }
+    #instagram:hover {
+        color: #cf2e74;
+    }
+    #facebook:hover {
+        color: #3b5998;
+    }
+    #linkedin:hover {
+        color: #0e76a8;
+    }
+}
+
+.footer-contact{
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+@media (max-width: 964px){
+    .content-social{
+        flex-direction: column;
+    }
+}

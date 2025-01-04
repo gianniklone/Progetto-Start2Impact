@@ -1,0 +1,57 @@
+.maincv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    background: #1c1c1c;
+    padding-bottom: 10px;
+}
+
+
+.titolocv {
+    color: #ccc;
+    font-size: 50px;
+}
+.contentcv {
+    margin: 20px 10px;
+    padding: 10px 50px;
+    background-color: #1c1c1c;
+    border: 2px black solid;
+    transition: border .4s ease;
+    h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: #ccc;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #ccc;
+    }
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.home-btn {
+    background: #fff;
+    padding: 10px 30px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    a {
+        text-decoration: none;
+    }
+}
+.home-btn:hover {
+    background: #fb8c00;
+}
+.contentcv:hover {
+    border: 2px #ffb742 solid;
+}

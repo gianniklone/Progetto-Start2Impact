@@ -1,0 +1,61 @@
+.experience {
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: nowrap;
+    gap: 24px;
+    .item {
+        background: #292b2e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 0px 30px;
+        border: 1px solid transparent;
+        cursor: default;
+        transition: all 0.3s ease;
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3 {
+                color: #ffb742;
+                font-size: 28px;
+            }
+            p {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+        >i {
+           color: #fff;
+           font-size: 30px;
+           transition: color 0.3s ease; 
+        }
+        .icon {
+            width: 46px;
+            height: 46px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            i {
+                font-size: 30px;
+            }
+        }
+    }
+    .item:hover {
+        border-color: #ffb742;
+        .icon {
+            background-color: #ffb742;
+        }
+        >i {
+            color: #ffb742;
+        }
+    }
+}

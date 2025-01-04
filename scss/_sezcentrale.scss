@@ -1,0 +1,32 @@
+.main {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h4 {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 600;
+        span {
+            color: #ffb742;
+            text-decoration: underline;
+        }    
+    }
+    p.titolo {
+        font-size: 44px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 8px;
+    }
+    p.sotto-titolo {
+        font-size: 16px;
+        color: #ccc;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 600px;
+    }
+
+}

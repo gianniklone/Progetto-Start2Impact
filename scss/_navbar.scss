@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #212529;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c1c;
+    height: 80px;
+    padding: 0 50px;
+    h2 {
+        color: #ffb742;
+        font-weight: 660;
+    }
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 16px;
+                margin-right: 20px;
+                transition: color 0.3s ease;
+            }
+        }
+        li:hover a{
+            color: #ffb742;
+        }
+        li:last-child a {
+            margin: 0;
+        }
+    }
+    .hire-btn {
+        background: #fff;
+        padding: 10px 30px;
+        margin-bottom: 25px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+        a {
+            text-decoration: none;
+        }
+    }
+    .hire-btn:hover {
+        background: #fb8c00;
+    }
+}
