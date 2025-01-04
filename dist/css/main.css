@@ -382,8 +382,9 @@ footer .cols .news-col form i {
     margin-top: 150px;
   }
   footer .start {
-    width: 90%;
-    left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     top: -20%;
   }
   footer .cols {
@@ -441,10 +442,10 @@ footer .cols .news-col form i {
   .main p.sotto-titolo {
     font-size: 12px;
   }
-  .main .img {
+  .main img {
     margin-top: 40px;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
   }
   .skills {
     flex-wrap: wrap;
@@ -483,6 +484,9 @@ footer .cols .news-col form i {
   }
   .main p.sotto-titolo {
     font-size: 10px;
+  }
+  .main img {
+    width: 389px;
   }
   .experience .item .info h3 {
     font-size: 23px;
