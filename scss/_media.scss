@@ -145,10 +145,16 @@
     @media screen and (max-width: 480px) {
         .main{
             p.titolo{
-                font-size: 18px;
+                display: none;
             }
             p.sotto-titolo{
-                font-size: 10px;
+                display: none;
+            }
+            h4 {
+                display: none;
+            }
+            span {
+                display: none;
             }
             img {
                 width: 389px;
