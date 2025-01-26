@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 75px;
+    gap: 36px;
 }
 .social-logo  {
     position: relative;
@@ -44,6 +44,9 @@
     }
     #linkedin:hover {
         color: #0e76a8;
+    }
+    #form:hover {
+        color: #635a5a;
     }
 }
 

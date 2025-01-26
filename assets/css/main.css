@@ -311,7 +311,7 @@ footer .cols .link-col a:hover {
 footer .cols .news-col {
   flex: 3;
 }
-footer .cols .news-col h4 {
+footer .cols .news-col .footer__sottotitoli {
   color: #fff;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -386,6 +386,7 @@ footer .cols .news-col form i {
     justify-content: space-around;
     align-items: center;
     top: -20%;
+    gap: 10px;
   }
   footer .cols {
     flex-wrap: wrap;
@@ -404,7 +405,7 @@ footer .cols .news-col form i {
   .navbar button {
     display: none;
   }
-  .main h1 {
+  .main h4 {
     font-size: 24px;
   }
   .main p.titolo {
@@ -459,6 +460,7 @@ footer .cols .news-col form i {
   }
   footer .start {
     top: -8%;
+    gap: 10px;
   }
   footer .start p {
     display: none;
@@ -480,10 +482,16 @@ footer .cols .news-col form i {
 }
 @media screen and (max-width: 480px) {
   .main p.titolo {
-    font-size: 18px;
+    display: none;
   }
   .main p.sotto-titolo {
-    font-size: 10px;
+    display: none;
+  }
+  .main h4 {
+    display: none;
+  }
+  .main span {
+    display: none;
   }
   .main img {
     width: 389px;
@@ -493,6 +501,9 @@ footer .cols .news-col form i {
   }
   .experience .item .info p {
     font-size: 13px;
+  }
+  footer .start {
+    display: flex;
   }
 }
 .maincv {
@@ -573,7 +584,7 @@ footer .cols .news-col form i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 75px;
+  gap: 36px;
 }
 
 .social-logo {
@@ -603,6 +614,9 @@ footer .cols .news-col form i {
 }
 .social-logo #linkedin:hover {
   color: #0e76a8;
+}
+.social-logo #form:hover {
+  color: #635a5a;
 }
 
 .footer-contact {
