@@ -628,4 +628,58 @@ footer .cols .news-col form i {
   .content-social {
     flex-direction: column;
   }
+}
+.titolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  background: #1c1c1c;
+  padding-bottom: 10px;
+  color: #ccc;
+}
+.titolo h1 {
+  font-size: 50px;
+}
+
+.form-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252424;
+  border: black;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+  height: 650px;
+  width: 1000px;
+  color: #ccc;
+}
+.form-main .form-group {
+  margin-bottom: 20px;
+}
+.form-main label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+.form-main input, .form-main textarea {
+  width: 800px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.form-main textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.button-contact {
+  text-align: center;
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */
