@@ -9,36 +9,32 @@
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="titolo">
-        <h1>Form</h1>
+    <div class="maincontact">
+        <h1>Social</h1>
     </div>
+    <div class="form-container">
+        <form action="mailto:tuoindirizzo@example.com" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="firstName">Nome</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
 
-    <div class="main">
-    <div class="form-main">
-        <form action="mailto:giovannilapalombella#@gmail.com" method="POST"  enctype="multipart/form-data">
             <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" required>
+                <label for="lastName">Cognome</label>
+                <input type="text" id="lastName" name="lastName" required>
             </div>
+
             <div class="form-group">
-                <label for="cognome">Cognome</label>
-                <input type="text" id="cognome" required>
+                <label for="city">Città</label>
+                <input type="text" id="city" name="city" required>
             </div>
+
             <div class="form-group">
-                <label for="città">Città</label>
-                <input type="text" id="città" required>
+                <label for="message">Richiesta</label>
+                <textarea id="message" name="message" required></textarea>
             </div>
-            <div class="form-group">
-                <label for="messaggio">Scrivi qui un breve messaggio</label>
-                <textarea id="messaggio" name="messaggio" required></textarea>
-            </div>
-            
+
+            <a href="index.html"><button type="submit" class="hire-btn">Invia la Richiesta</button></a>
         </form>
     </div>
-</div>
-   <div class="button-contact">
-            <a href="index.html"><button class="home-btn">Invia e torna alla Home</button></a>
-        </div>
-    
-</body>
 </html>

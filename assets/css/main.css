@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -629,44 +630,39 @@ footer .cols .news-col form i {
     flex-direction: column;
   }
 }
-.titolo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 15px;
-  background: #1c1c1c;
-  padding-bottom: 10px;
-  color: #ccc;
-}
-.titolo h1 {
-  font-size: 50px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  height: 100vh;
 }
 
-.form-main {
+/* Contenitore del form */
+.form-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #252424;
-  border: black;
+  background-color: #1c1c1c;
   padding: 20px;
-  margin-top: 50px;
   border-radius: 8px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
-  height: 650px;
-  width: 1000px;
-  color: #ccc;
+  width: 100%;
 }
-.form-main .form-group {
+
+/* Stile per i campi del form */
+.form-group {
   margin-bottom: 20px;
 }
-.form-main label {
-  font-weight: 600;
+
+label {
+  font-weight: 500;
   display: block;
   margin-bottom: 8px;
   color: #ccc;
 }
-.form-main input, .form-main textarea {
-  width: 800px;
+
+input[type=text], input[type=email], input[type=city], textarea {
+  width: 1000px;
+  text-align: center;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -674,12 +670,39 @@ footer .cols .news-col form i {
   box-sizing: border-box;
   margin-top: 5px;
 }
-.form-main textarea {
+
+textarea {
   resize: vertical;
   height: 150px;
 }
 
-.button-contact {
-  text-align: center;
-  margin-top: 100px;
+.hire-button {
+  background: #fff;
+  padding: 6px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.hire-btn:hover {
+  background: #fb8c00;
+}
+
+/* Responsività */
+@media screen and (max-width: 1026px) {
+  input[type=text], input[type=email], input[type=city], textarea {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form-container {
+    padding: 15px;
+  }
+  .form-button {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */
