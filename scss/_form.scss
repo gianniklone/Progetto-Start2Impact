@@ -1,82 +1,59 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #1c1c1c;
-    height: 100vh;
-}
-
-
-
-/* Contenitore del form */
-.form-container {
+.mainform {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #1c1c1c;
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-}
-
-/* Stile per i campi del form */
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    font-weight: 500;
-    display: block;
-    margin-bottom: 8px;
-    color: #ccc;
-}
-
-input[type="text"], input[type="email"], input[type="city"], textarea {
-    width: 1000px;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-    box-sizing: border-box;
-    margin-top: 5px;
-}
-
-textarea {
-    resize: vertical;
-    height: 150px;
-}
-
-.hire-button {
-        background: #fff;
-        padding: 6px 30px;
-        border: none;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 6px;
-        transition: background-color 0.3s ease;
-        margin-bottom: 100px;
-        margin-top: 30px;
-    }
-.hire-btn:hover {
-        background: #fb8c00;
-    }
-
-
-/* Responsività */
-@media screen and (max-width: 1026px) {
-    input[type="text"], input[type="email"], input[type="city"], textarea {
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    .form-container {
-        padding: 15px;
-    }
-
-    .form-button {
-        padding: 10px;
+    align-items: center;
+    .contact{
+        h1 {
+            font-size: 40px;
+            color: #ccc;
+            text-align: center;
+            margin-bottom: 10px;
+            padding-bottom: 60px;
+        }
+        form {
+            width: 600px;
+            text-align: center;
+            .input-box {
+                display: flex;
+                justify-content: space-between;
+            }
+            .input-box .input-field {
+                width: 49%;
+            }
+            .field .item {
+                width: 100%;
+                padding: 18px;
+                background: transparent;
+                border: 2px solid #fb8c00;
+                box-shadow: 0 0 6px #fb8c00;
+                outline: none;
+                border-radius: 8px;
+                font-size: 16px;
+                color: #ccc;
+                margin: 12px 0;
+            }
+            .field .item::placeholder {
+                color: rgba(255, 255, 255, .3);
+            }
+        }
+        .textarea-field .item{
+            resize: none;
+        }
+        button {
+                background: #fff;
+                padding: 6px 30px;
+                border: none;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 6px;
+                transition: background-color 0.3s ease;
+                margin-bottom: 100px;
+                margin-top: 30px;
+        }
+        button:hover {
+            background: #fb8c00;
+            
+        }
     }
 }
-

@@ -9,32 +9,35 @@
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="maincontact">
-        <h1>Social</h1>
-    </div>
-    <div class="form-container">
-        <form action="mailto:tuoindirizzo@example.com" method="POST" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="firstName">Nome</label>
-                <input type="text" id="firstName" name="firstName" required>
+    <div class="mainform">
+    <section class="contact">
+        <h1>Compila il form e contattami!</h1>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Nome" class="item" required>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email" class="item" required>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label for="lastName">Cognome</label>
-                <input type="text" id="lastName" name="lastName" required>
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Numero Telefono"  class="item" required>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Città"  class="item" required>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label for="city">Città</label>
-                <input type="text" id="city" name="city" required>
+            <div class="textarea-field field">
+                <textarea name="" id="messaggio" cols="30" rows="10" placeholder="Il tuo  messaggio" class="item" required></textarea>
             </div>
 
-            <div class="form-group">
-                <label for="message">Richiesta</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-
-            <a href="index.html"><button type="submit" class="hire-btn">Invia la Richiesta</button></a>
+            <a href="index.html"><button>Invia Messaggio</button></a>
         </form>
+    </section>
     </div>
 </html>
