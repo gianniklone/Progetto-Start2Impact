@@ -293,7 +293,8 @@ footer .cols .about-col p {
 footer .cols .link-col {
   flex: 3;
 }
-footer .cols .link-col h4 {
+footer .cols .link-col h1.titolo-footer {
+  font-size: 13px;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -315,6 +316,11 @@ footer .cols .news-col .footer__sottotitoli {
   color: #fff;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+footer .cols .news-col h1.titolo-footer {
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 footer .cols .news-col p {
   color: #7b7b7b;

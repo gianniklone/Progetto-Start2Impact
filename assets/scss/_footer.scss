@@ -48,7 +48,8 @@ footer  {
         }
         .link-col {
             flex: 3;
-            h4 {
+            h1.titolo-footer {
+               font-size: 13px; 
                color: #fff;
                margin-bottom: 20px; 
             }
@@ -71,6 +72,11 @@ footer  {
                 margin-bottom: 20px;
                 margin-top: 20px;
              }
+            h1.titolo-footer{
+                font-size: 13px; 
+               color: #fff;
+               margin-bottom: 20px;
+            }
             p {
                 color: #7b7b7b;
                 font-size: 15px;
