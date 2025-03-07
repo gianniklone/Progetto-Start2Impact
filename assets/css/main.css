@@ -629,62 +629,86 @@ footer .cols .news-col form i {
     flex-direction: column;
   }
 }
-.mainform {
-  min-height: 100vh;
+.main-form {
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
-.mainform .contact h1 {
-  font-size: 40px;
-  color: #ccc;
-  text-align: center;
-  margin-bottom: 10px;
-  padding-bottom: 60px;
-}
-.mainform .contact form {
-  width: 600px;
-  text-align: center;
-}
-.mainform .contact form .input-box {
-  display: flex;
-  justify-content: space-between;
-}
-.mainform .contact form .input-box .input-field {
-  width: 49%;
-}
-.mainform .contact form .field .item {
+
+.container-form {
+  max-width: 700px;
   width: 100%;
-  padding: 18px;
-  background: transparent;
-  border: 2px solid #fb8c00;
-  box-shadow: 0 0 6px #fb8c00;
-  outline: none;
-  border-radius: 8px;
-  font-size: 16px;
-  color: #ccc;
-  margin: 12px 0;
-}
-.mainform .contact form .field .item::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-.mainform .contact form .field .item::placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-.mainform .contact .textarea-field .item {
-  resize: none;
-}
-.mainform .contact button {
   background: #fff;
-  padding: 6px 30px;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.container-form .titolo-form {
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+.container-form .titolo-form::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: #ffb742;
+}
+.container-form form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.container-form form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(50% - 20px);
+}
+.container-form form .user-details .input-box .dettagli {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.container-form form .user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+.container-form form .user-details .input-box input:focus, .container-form form .user-details .input-box input:valid {
+  border-color: #ffb742;
+}
+.container-form form .textarea-details .messaggio {
+  display: flex;
+  margin-top: 10px;
+}
+.container-form form .textarea-details .messaggio textarea {
+  resize: none;
+  width: 360px;
+  height: 100px;
+  padding: 5px;
+}
+.container-form .button {
+  background: #000000;
+  position: relative;
+  top: 10px;
+  color: #fff;
+  padding: 10px 30px;
   border: none;
   font-size: 16px;
   cursor: pointer;
   border-radius: 6px;
   transition: background-color 0.3s ease;
-  margin-bottom: 100px;
-  margin-top: 30px;
 }
-.mainform .contact button:hover {
+.container-form .button:hover {
   background: #fb8c00;
 }/*# sourceMappingURL=main.css.map */

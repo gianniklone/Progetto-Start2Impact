@@ -9,35 +9,43 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="mainform">
-    <section class="contact">
-        <h1>Compila il form e contattami!</h1>
-
-        <form>
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Nome" class="item" required>
+    <div class="main-form">
+    <div class="container-form">
+        <div class="titolo-form"><h1>Compila il form</h1></div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="dettagli">Nome</span>
+                    <input type="text" placeholder="Il tuo nome" required>
                 </div>
-                <div class="input-field field">
-                    <input type="text" placeholder="Email" class="item" required>
+                <div class="input-box">
+                    <span class="dettagli">Cognome</span>
+                    <input type="text" placeholder="Il tuo cognome" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Città</span>
+                    <input type="text" placeholder="La tua città" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Telefono</span>
+                    <input type="text" placeholder="Il tuo numero di telefono" required>
+                </div>
+                <div class="input-box">
+                    <span class="dettagli">Email</span>
+                    <input type="text" placeholder="La tua email" required>
                 </div>
             </div>
-
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Numero Telefono"  class="item" required>
-                </div>
-                <div class="input-field field">
-                    <input type="text" placeholder="Città"  class="item" required>
+            <div class="textarea-details">
+                <span class="textarea-titolo">Messaggio</span>
+                <div class="messaggio">
+                    <textarea rows="7" placeholder="Scrivi qui il tuo messaggio"></textarea>
                 </div>
             </div>
-
-            <div class="textarea-field field">
-                <textarea name="" id="messaggio" cols="30" rows="10" placeholder="Il tuo  messaggio" class="item" required></textarea>
+            <div>
+                <a href="index.html"><button class="button">Invia il tuo messaggio</button></a>
             </div>
-
-            <a href="index.html"><button>Invia Messaggio</button></a>
+        </div>
         </form>
-    </section>
     </div>
+ 
 </html>
