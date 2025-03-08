@@ -19,7 +19,7 @@ body {
   height: 80px;
   padding: 0 50px;
 }
-.navbar h2 {
+.navbar h1 {
   color: #ffb742;
   font-weight: 660;
 }
@@ -66,12 +66,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-.main h4 {
+.main h1 {
   font-size: 32px;
   color: #fff;
   font-weight: 600;
 }
-.main h4 span {
+.main h1 span {
   color: #ffb742;
   text-decoration: underline;
 }
